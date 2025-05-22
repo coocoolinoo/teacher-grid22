@@ -474,5 +474,2181 @@
       "technisches_fach": false,
       "abteilung": "ITEL"
     }
+  },
+   {
+    "id": 29,
+    "name": "Barbara Engelhart",
+    "kuerzel": "ENGL",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": false,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "IF"
+    }
+  },
+{
+    "id": 30,
+    "name": "Benjamin Ernst",
+    "kuerzel": "ERNT",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 31,
+    "name": "Herbert Feichtinger",
+    "kuerzel": "FEIH",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 32,
+    "name": "Bernhard Filipovic",
+    "kuerzel": "FILI",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Peter Fischer",
+    "kuerzel": "FISH",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Stephan Floderer",
+    "kuerzel": "FLOD",
+    "eigenschaften": {
+      "glatze": true,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 35,
+    "name": "Wilhelm Frysak",
+    "kuerzel": "FRYJ",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Daniel Goldack",
+    "kuerzel": "GOLD",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Jan Göker",
+    "kuerzel": "Goek",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": ""
+    }
+  },
+  {
+    "id": 38,
+    "name": "Verena Groh",
+    "kuerzel": "GROH",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 39,
+    "name": "Heinrich haager",
+    "kuerzel": "HAAG",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 40,
+    "name": "Jakob Haugeneder",
+    "kuerzel": "HAUG",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Christian Heissenberger",
+    "kuerzel": "HEIS",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Martina Hiesinger",
+    "kuerzel": "HIES",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Oliver Hladik",
+    "kuerzel": "HLAD",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Bernhard Höfling",
+    "kuerzel": "HOEF",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Josef Hollaus",
+    "kuerzel": "HOLL",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Merisa Husejnovic",
+    "kuerzel": "HUSE",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": ""
+    }
+  },
+  {
+    "id": 47,
+    "name": "Hussain Ibrahim",
+    "kuerzel": "IBRA",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 48,
+    "name": "Georg Jungherr",
+    "kuerzel": "JUNG",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Paul Jurassovits",
+    "kuerzel": "JURA",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Daniel Kaspar",
+    "kuerzel": "KASP",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 51,
+    "name": "Yücel Kaymaz",
+    "kuerzel": "KAYM",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 52,
+    "name": "Lothar Kerbl",
+    "kuerzel": "KERB",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": ""
+    }
+  },
+  {
+    "id": 53,
+    "name": "Ahmet Kilic",
+    "kuerzel": "KILI",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 54,
+    "name": "Wolfgang Klestil",
+    "kuerzel": "KLES",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 55,
+    "name": "Gerald Kniendl",
+    "kuerzel": "KNIE",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": ""
+    }
+  },
+  {
+    "id": 56,
+    "name": "Eleni Knoll",
+    "kuerzel": "KNOL",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 57,
+    "name": "Peter Kovar",
+    "kuerzel": "KOVA",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 58,
+    "name": "Rainer Krist",
+    "kuerzel": "KRIS",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 59,
+    "name": "Gerhard Krizovsky",
+    "kuerzel": "KRIZ",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 60,
+    "name": "Margot Krobath",
+    "kuerzel": "KROB",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 61,
+    "name": "Zeljko Krstic",
+    "kuerzel": "KRST",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 62,
+    "name": "Patricia Küng",
+    "kuerzel": "KUEN",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 63,
+    "name": "Aleksandar Kujundzic",
+    "kuerzel": "KUJU",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 64,
+    "name": "Kathrin Kuttner",
+    "kuerzel": "KUTT",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 65,
+    "name": "Reinhard Ladislav",
+    "kuerzel": "LADI",
+    "eigenschaften": {
+      "glatze": true,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 66,
+    "name": "Barbara Lucie Langer",
+    "kuerzel": "LANG",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 67,
+    "name": "Gerhard Lendl",
+    "kuerzel": "LEND",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": ""
+    }
+  },
+  {
+    "id": 68,
+    "name": "Bernhard Loibner",
+    "kuerzel": "LOIB",
+    "eigenschaften": {
+      "glatze": true,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 69,
+    "name": "Sophie Lojka",
+    "kuerzel": "LOJK",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 70,
+    "name": "Reinhard Lutz",
+    "kuerzel": "LUTZ",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 71,
+    "name": "Walter Mantl-Mussak",
+    "kuerzel": "MAMU",
+    "eigenschaften": {
+      "glatze": true,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 72,
+    "name": "Thomas Mantler",
+    "kuerzel": "MANT",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 73,
+    "name": "Sonja Mitterdorfer",
+    "kuerzel": "MITT",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 74,
+    "name": "Andrea Mokesch-Marksz",
+    "kuerzel": "MARK",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 75,
+    "name": "Erich Muck",
+    "kuerzel": "MUCK",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 76,
+    "name": "Paul Necas",
+    "kuerzel": "NECA",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 77,
+    "name": "Doris Nestler",
+    "kuerzel": "NEST",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 78,
+    "name": "Herbert Newald",
+    "kuerzel": "NEWA",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 79,
+    "name": "Reinhard Noizmüller",
+    "kuerzel": "NOIZ",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 80,
+    "name": "Peter Oettl",
+    "kuerzel": "OETT",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 81,
+    "name": "Johannes Offenberger",
+    "kuerzel": "KERB",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": ""
+    }
+  },
+  {
+    "id": 82,
+    "name": "Ibrahim Olgun",
+    "kuerzel": "OLGU",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+{
+    "id": 83,
+    "name": "Benjamin Orth",
+    "kuerzel": "ORTH",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": true,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 84,
+    "name": "David Oszko",
+    "kuerzel": "OSKO",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 85,
+    "name": "Ali-Riza Özer",
+    "kuerzel": "OZER",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 86,
+    "name": "Roland Pachner",
+    "kuerzel": "PACO",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 87,
+    "name": "Cornelia Past",
+    "kuerzel": "PAST",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": ""
+    }
+  },
+  {
+    "id": 88,
+    "name": "Thomas Payer",
+    "kuerzel": "PAYR",
+    "eigenschaften": {
+      "glatze": true,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 89,
+    "name": "Martin Pazderka",
+    "kuerzel": "PAZD",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 90,
+    "name": "Markus Peitl",
+    "kuerzel": "PEIT",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 91,
+    "name": "Benjamin Petric",
+    "kuerzel": "PETR",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 92,
+    "name": "Peter Pichler",
+    "kuerzel": "PICH",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 93,
+    "name": "Walter Pölzl",
+    "kuerzel": "POLZ",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 94,
+    "name": "Jeniffer Posch",
+    "kuerzel": "POSH",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 95,
+    "name": "Wolfgang Prechelmacher",
+    "kuerzel": "PREC",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 96,
+    "name": "Martin Prinz",
+    "kuerzel": "PRNZ",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 97,
+    "name": "Michael Putzenlechner",
+    "kuerzel": "PULE",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 98,
+    "name": "Beatrix Putz-Mayerhofer",
+    "kuerzel": "PUMA",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 99,
+    "name": "Monika Putzinger",
+    "kuerzel": "PUTZ",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 100,
+    "name": "Richard Racek",
+    "kuerzel": "RACE",
+    "eigenschaften": {
+      "glatze": true,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 101,
+    "name": "Roland Reicher",
+    "kuerzel": "REIR",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 102,
+    "name": "Sarah Reissig",
+    "kuerzel": "REIS",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 103,
+    "name": "Wolf Reitsamer",
+    "kuerzel": "REIT",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 104,
+    "name": "Veronika Rieger",
+    "kuerzel": "RIEG",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": false,
+      "geschlecht": "weiblich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 105,
+    "name": "Lukas Rom",
+    "kuerzel": "ROMA",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 106,
+    "name": "Erwin Rybin",
+    "kuerzel": "RYBI",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 107,
+    "name": "Erik Sacher",
+    "kuerzel": "SACH",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+{
+    "id": 108,
+    "name": "Michael Sala",
+    "kuerzel": "SALM",
+    "eigenschaften": {
+      "glatze": true,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 109,
+    "name": "Franz Santrucek",
+    "kuerzel": "SANT",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 110,
+    "name": "Christian Saupper",
+    "kuerzel": "SAUC",
+    "eigenschaften": {
+      "glatze": true,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 111,
+    "name": "Ulrich Sax",
+    "kuerzel": "SAXU",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 112,
+    "name": "Hainrich Schabmann",
+    "kuerzel": "SABM",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 113,
+    "name": "Lisa Schachner",
+    "kuerzel": "SCHA",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "weiblich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": ""
+    }
+  },
+  {
+    "id": 114,
+    "name": "Lisa Schenkermayer",
+    "kuerzel": "SHEL",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 115,
+    "name": "Veronika Schippani-Stockinger",
+    "kuerzel": "SCHI",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 116,
+    "name": "Bernhard Schleser",
+    "kuerzel": "SLES",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 117,
+    "name": "Thomas Schlögl",
+    "kuerzel": "SLOG",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 118,
+    "name": "Lisalotte Schmelz",
+    "kuerzel": "SMEZ",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 119,
+    "name": "Barbara Schmidt",
+    "kuerzel": "SMIB",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 120,
+    "name": "Fabian Schmiedt",
+    "kuerzel": "SMIE",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 121,
+    "name": "Geord Schmied",
+    "kuerzel": "SMIG",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 122,
+    "name": "Gerhard Schönauer",
+    "kuerzel": "SOEN",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 123,
+    "name": "Sören Schrödl",
+    "kuerzel": "SROE",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 124,
+    "name": "Christian Schuckert",
+    "kuerzel": "SCHU",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 125,
+    "name": "Alina Schuster",
+    "kuerzel": "SUSA",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 126,
+    "name": "Michael Sedlacek",
+    "kuerzel": "SEDL",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 127,
+    "name": "Michael Sinn",
+    "kuerzel": "SINN",
+    "eigenschaften": {
+      "glatze": true,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 128,
+    "name": "Thomas Sinn",
+    "kuerzel": "SINT",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 129,
+    "name": "Herbert Skudnigg",
+    "kuerzel": "SKUN",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 130,
+    "name": "Sabine Skudnigg",
+    "kuerzel": "SKUD",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 131,
+    "name": "Tobias Slowiak",
+    "kuerzel": "TSLO",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 132,
+    "name": "Thomas Spachinger",
+    "kuerzel": "SPAC",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 133,
+    "name": "Cornelia Spreitzer",
+    "kuerzel": "SPRE",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": false,
+      "geschlecht": "weiblich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": ""
+    }
+  },
+  {
+    "id": 134,
+    "name": "Kurt Stadler",
+    "kuerzel": "STAK",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 135,
+    "name": "Christian Stadlmann",
+    "kuerzel": "STAD",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": true,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 136,
+    "name": "Eduard Staudecker",
+    "kuerzel": "STAU",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 137,
+    "name": "Peter Stengel",
+    "kuerzel": "STEN",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": true,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 138,
+    "name": "Alessa Stria",
+    "kuerzel": "STRI",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "weiblich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 139,
+    "name": "Rudolf Stütz",
+    "kuerzel": "STUE",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 140,
+    "name": "Martin Tampier",
+    "kuerzel": "TAMP",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 141,
+    "name": "Klaus Triller",
+    "kuerzel": "TRIL",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 142,
+    "name": "Richard Urtheiler",
+    "kuerzel": "URTH",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 143,
+    "name": "Katrin Vlcek",
+    "kuerzel": "VLCK",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "weiblich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 144,
+    "name": "Gerhard Wenninger",
+    "kuerzel": "WENI",
+    "eigenschaften": {
+      "glatze": true,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 145,
+    "name": "Peter Wesel",
+    "kuerzel": "WESE",
+    "eigenschaften": {
+      "glatze": true,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": ""
+    }
+  },
+  {
+    "id": 146,
+    "name": "Thomas Wiederstein",
+    "kuerzel": "WIED",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 147,
+    "name": "Clemens Wiesinger",
+    "kuerzel": "WIES",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 148,
+    "name": "Lukas Wiedermann",
+    "kuerzel": "WILU",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": false,
+      "abteilung": ""
+    }
+  },
+  {
+    "id": 149,
+    "name": "Reinhard Wöhrnschimmel",
+    "kuerzel": "WOER",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 150,
+    "name": "Reinhard Wohlfart",
+    "kuerzel": "WOHL",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "IF"
+    }
+  },
+  {
+    "id": 151,
+    "name": "Andreas Wolfgruber",
+    "kuerzel": "WOLF",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 152,
+    "name": "Fritz Wucherer",
+    "kuerzel": "WUCH",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 153,
+    "name": "Mario Zach",
+    "kuerzel": "ZACH",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 154,
+    "name": "Josef Zechmeister",
+    "kuerzel": "ZECH",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": true,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ET"
+    }
+  },
+  {
+    "id": 155,
+    "name": "Patrick Zivkovic",
+    "kuerzel": "ZIVK",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": false,
+      "brille": false,
+      "kuerzel_enthaelt_a": false,
+      "kuerzel_enthaelt_e": true,
+      "Mag. oder Ing.": false,
+      "geschlecht": "männlich",
+      "hauptfach": false,
+      "technisches_fach": true,
+      "abteilung": "ITEL"
+    }
+  },
+  {
+    "id": 156,
+    "name": "Karl Zouhar",
+    "kuerzel": "REIR",
+    "eigenschaften": {
+      "glatze": false,
+      "halbglatze": true,
+      "brille": false,
+      "kuerzel_enthaelt_a": true,
+      "kuerzel_enthaelt_e": false,
+      "Mag. oder Ing.": true,
+      "geschlecht": "männlich",
+      "hauptfach": true,
+      "technisches_fach": false,
+      "abteilung": ""
+    }
   }
 ]
