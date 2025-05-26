@@ -1,0 +1,98 @@
+[
+  {
+    "anzeige": "Männlich",
+    "key": "geschlecht",
+    "wert": "männlich",
+    "kategorie": "vertikal"
+  },
+  {
+    "anzeige": "Weiblich",
+    "key": "geschlecht",
+    "wert": "weiblich",
+    "kategorie": "vertikal"
+  },
+  {
+    "anzeige": "Hat Glatze",
+    "key": "glatze",
+    "wert": true,
+    "kategorie": "vertikal"
+  },
+  {
+    "anzeige": "Hat keine Glatze",
+    "key": "glatze",
+    "wert": false,
+    "kategorie": "vertikal"
+  },
+  {
+    "anzeige": "Halbglatze",
+    "key": "halbglatze",
+    "wert": true,
+    "kategorie": "vertikal"
+  },
+  {
+    "anzeige": "Trägt Brille",
+    "key": "brille",
+    "wert": true,
+    "kategorie": "vertikal"
+  },
+  {
+    "anzeige": "Trägt keine Brille",
+    "key": "brille",
+    "wert": false,
+    "kategorie": "vertikal"
+  },
+  {
+    "anzeige": "Kürzel enthält A",
+    "key": "kuerzel_enthaelt_a",
+    "wert": true,
+    "kategorie": "vertikal"
+  },
+  {
+    "anzeige": "Unterrichtet Hauptfach",
+    "key": "hauptfach",
+    "wert": true,
+    "kategorie": "horizontal"
+  },
+  {
+    "anzeige": "Unterrichtet technisches Fach",
+    "key": "technisches_fach",
+    "wert": true,
+    "kategorie": "horizontal"
+  },
+  {
+    "anzeige": "Abteilung: ET",
+    "key": "abteilung",
+    "wert": "ET",
+    "kategorie": "horizontal"
+  },
+  {
+    "anzeige": "Abteilung: IF",
+    "key": "abteilung",
+    "wert": "IF",
+    "kategorie": "horizontal"
+  },
+  {
+    "anzeige": "Abteilung: ITEL",
+    "key": "abteilung",
+    "wert": "ITEL",
+    "kategorie": "horizontal"
+  },
+  {
+    "anzeige": "Mag. oder Ing.",
+    "key": "Mag. oder Ing.",
+    "wert": true,
+    "kategorie": "horizontal"
+  },
+  {
+    "anzeige": "Kein Titel",
+    "key": "Mag. oder Ing.",
+    "wert": false,
+    "kategorie": "horizontal"
+  },
+  {
+    "anzeige": "Kürzel enthält E",
+    "key": "kuerzel_enthaelt_e",
+    "wert": true,
+    "kategorie": "horizontal"
+  }
+]

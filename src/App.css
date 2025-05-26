@@ -1,120 +1,29 @@
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: 'Arial', sans-serif; 
-}
-
-.app-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #f5f5f5;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.teacher-grid-container {
-  width: 100%;
-  max-width: 800px;
-  background: white;
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  text-align: center;
-}
-
-
-h1 {
-  color: #2c3e50; 
-  margin-bottom: 20px;
-}
-
-.score-display {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  font-weight: bold;
-  color: #ff8400; 
-}
-
-
-.grid {
+/* TeacherGrid.css */
+.grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px; 
-  margin: 30px auto;
-  max-width: 600px;
+  grid-template-columns: 150px repeat(auto-fit, 40px);
+  grid-auto-rows: 40px;
+  gap: 1px;
+  background-color: #ccc;
+  overflow: auto;
+  max-width: 100%;
+}
+
+.grid-label {
+  font-weight: bold;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 4px;
+  font-size: 12px;
+  z-index: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .grid-cell {
-  background: #f8f9fa;
-  border: 2px solid #ff8400;
-  border-radius: 10px;
-  aspect-ratio: 1;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #2c3e50; 
-  font-weight: bold;
-  font-size: 14px;
+  background-color: white;
   text-align: center;
-  padding: 10px;
+  padding: 4px;
+  font-size: 12px;
 }
-
-.grid-cell:hover {
-  background: #e9f5e9;
-  transform: scale(1.03);
-  box-shadow: 0 3px 10px rgba(76, 175, 80, 0.2);
-}
-
-
-.popup-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-.popup {
-  background: white;
-  padding: 25px;
-  border-radius: 10px;
-  width: 90%;
-  max-width: 500px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-  color: #333; 
-}
-
-
-@media (max-width: 768px) {
-  .grid {
-    gap: 10px;
-  }
-  
-  .teacher-grid-container {
-    padding: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .grid-cell {
-    border-width: 1px;
-    font-size: 12px; 
-  }
-  
-  .score-display {
-    flex-direction: column;
-    gap: 10px;
-  }
-}
-
