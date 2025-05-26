@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import GewinnerImage from './assets/Gewinner.jpeg';
+import VerliererImage from './assets/Verlierer.jpeg';
 import teachersData from './teachers.json';
 import eigenschaftenData from './eigenschaften.json';
 
@@ -188,25 +190,50 @@ const App: React.FC = () => {
     return <div>Laden...</div>;
   }
 
-  return (
-    <div className="app" style={{ 
-      display: 'flex', 
-      flexDirection: 'column', 
-      alignItems: 'center', 
+ return (
+  <div
+    className="app"
+    style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
       padding: '20px',
       maxWidth: '800px',
-      margin: '0 auto'
-    }}>
+      margin: '0 auto',
+      minHeight: '100vh',
+      backgroundImage: gameOver || gameWon ? `url(${gameWon ? GewinnerImage : VerliererImage})` : 'none',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      color: gameOver || gameWon ? 'white' : 'black',
+    }}
+  >
+
       <h1>Teachergrid</h1>
       <p>Versuche übrig: {attemptsLeft}</p>
       
       {(gameOver || gameWon) ? (
         <div style={{ 
-          color: gameWon ? 'green' : 'red', 
-          margin: '20px',
-          textAlign: 'center'
+          textAlign: 'center',
+          margin: '20px'
         }}>
-          <h2>{gameWon ? 'Gewonnen!' : 'Game Over!'}</h2>
+          <h2 style={{ 
+            color: gameWon ? 'green' : 'red',
+            fontSize: '24px',
+            marginBottom: '20px'
+          }}>
+            {gameWon ? 'Du bist der Beste!' : 'Arbeite weiter an dir!'}
+          </h2>
+          <img 
+           
+            style={{
+              width: '300px',
+              height: '300px',
+              objectFit: 'cover',
+              borderRadius: '8px',
+              marginBottom: '20px'
+            }}
+          />
           <button 
             onClick={resetGame}
             style={{

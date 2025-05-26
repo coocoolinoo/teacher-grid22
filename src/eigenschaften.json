@@ -18,12 +18,6 @@
     "kategorie": "vertikal"
   },
   {
-    "anzeige": "Hat keine Glatze",
-    "key": "glatze",
-    "wert": false,
-    "kategorie": "vertikal"
-  },
-  {
     "anzeige": "Halbglatze",
     "key": "halbglatze",
     "wert": true,
@@ -84,7 +78,7 @@
     "kategorie": "horizontal"
   },
   {
-    "anzeige": "Kein Titel",
+    "anzeige": "Kein Mag. oder Ing.",
     "key": "Mag. oder Ing.",
     "wert": false,
     "kategorie": "horizontal"

@@ -127,7 +127,7 @@
       "halbglatze": false,
       "brille": true,
       "kuerzel_enthaelt_a": true,
-      "kuerzel_enthaelt_e": false,
+      "kuerzel_enthaelt_e": true,
       "Mag. oder Ing.": true,
       "geschlecht": "weiblich",
       "hauptfach": true,
