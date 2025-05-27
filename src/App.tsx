@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import './App.css';
 import GewinnerImage from './assets/Gewinner.jpeg';
 import VerliererImage from './assets/Verlierer.jpeg';
 import teachersData from './teachers.json';
 import eigenschaftenData from './eigenschaften.json';
+import HTLLogo from './assets/HTLLOGO.png';
 
 interface Teacher {
   id: number;
@@ -191,162 +193,87 @@ const App: React.FC = () => {
   }
 
  return (
-  <div
-    className="app"
-    style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      padding: '20px',
-      maxWidth: '800px',
-      margin: '0 auto',
-      minHeight: '100vh',
-      backgroundImage: gameOver || gameWon ? `url(${gameWon ? GewinnerImage : VerliererImage})` : 'none',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      color: gameOver || gameWon ? 'white' : 'black',
-    }}
-  >
+    <div id="root">
+      <header className="app-header">
+  <img src={HTLLogo} alt="HTL Logo" className="htl-logo" />
+  <h1>HTL DonauGrid</h1>
+</header>
 
-      <h1>Teachergrid</h1>
-      <p>Versuche übrig: {attemptsLeft}</p>
-      
-      {(gameOver || gameWon) ? (
-        <div style={{ 
-          textAlign: 'center',
-          margin: '20px'
-        }}>
-          <h2 style={{ 
-            color: gameWon ? 'green' : 'red',
-            fontSize: '24px',
-            marginBottom: '20px'
-          }}>
-            {gameWon ? 'Du bist der Beste!' : 'Arbeite weiter an dir!'}
-          </h2>
-          <img 
-           
-            style={{
-              width: '300px',
-              height: '300px',
-              objectFit: 'cover',
-              borderRadius: '8px',
-              marginBottom: '20px'
-            }}
-          />
-          <button 
-            onClick={resetGame}
-            style={{
-              padding: '10px 20px',
-              fontSize: '16px',
-              backgroundColor: '#4CAF50',
-              color: 'white',
-              border: 'none',
-              borderRadius: '4px',
-              cursor: 'pointer'
-            }}
-          >
-            Neues Spiel
-          </button>
-        </div>
-      ) : (
-        <div style={{ 
-          display: 'grid', 
-          gridTemplateColumns: 'auto 1fr 1fr 1fr', 
-          gap: '10px',
-          width: '100%'
-        }}>
-          <div style={{ width: '120px', height: '50px' }}></div>
-          
-          {verticalEigenschaften.map((eig, col) => (
-            <div key={col} style={{ 
-              width: '120px', 
-              height: '50px', 
-              display: 'flex', 
-              justifyContent: 'center', 
-              alignItems: 'center',
-              backgroundColor: '#f0f0f0',
-              border: '1px solid #ddd',
-              padding: '5px',
-              textAlign: 'center',
-              fontSize: '14px'
-            }}>
-              {eig.anzeige}
+
+      <main className="game-container">
+        {gameOver || gameWon ? (
+          <div className="result-screen">
+            <h2 className="result-title">
+              {gameWon ? 'Du bist der Beste!' : 'Arbeite weiter an dir!'}
+            </h2>
+            <img 
+              src={gameWon ? GewinnerImage : VerliererImage} 
+              alt={gameWon ? "Gewinner" : "Verlierer"}
+              className="result-image"
+            />
+            <button 
+              onClick={resetGame}
+              className="new-game-btn"
+            >
+              Neues Spiel
+            </button>
+          </div>
+        ) : (
+          <>
+            <div className="attempts-counter">
+              Versuche übrig: {attemptsLeft}
             </div>
-          ))}
-          
-          {horizontalEigenschaften.map((eig, row) => (
-            <React.Fragment key={row}>
-              <div style={{ 
-                width: '120px', 
-                height: '120px', 
-                display: 'flex', 
-                alignItems: 'center',
-                justifyContent: 'center',
-                backgroundColor: '#f0f0f0',
-                border: '1px solid #ddd',
-                padding: '10px',
-                textAlign: 'center',
-                fontSize: '14px'
-              }}>
-                {eig.anzeige}
-              </div>
+            
+            <div className="grid-container">
+              <div className="grid-corner"></div>
               
-              {[0, 1, 2].map((col) => (
-                <button
-                  key={col}
-                  style={{ 
-                    width: '120px', 
-                    height: '120px', 
-                    fontSize: '14px',
-                    backgroundColor: grid[row][col] ? '#e6ffe6' : '#fff',
-                    border: '1px solid #ddd',
-                    cursor: grid[row][col] ? 'default' : 'pointer',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    padding: '5px'
-                  }}
-                  onClick={() => handleCellClick(row, col)}
-                  disabled={grid[row][col] !== null}
-                >
-                  {grid[row][col] ? (
-                    <>
-                      <div style={{ fontWeight: 'bold', marginBottom: '5px' }}>
-                        {grid[row][col]?.kuerzel}
-                      </div>
-                      <div style={{ fontSize: '12px', textAlign: 'center' }}>
-                        {grid[row][col]?.name.split(' ')[0]}
-                      </div>
-                    </>
-                  ) : (
-                    '?'
-                  )}
-                </button>
+              {verticalEigenschaften.map((eig, col) => (
+                <div key={col} className="grid-header">
+                  {eig.anzeige}
+                </div>
               ))}
-            </React.Fragment>
-          ))}
-        </div>
-      )}
-      
+              
+              {horizontalEigenschaften.map((eig, row) => (
+                <React.Fragment key={row}>
+                  <div className="grid-row-label">
+                    {eig.anzeige}
+                  </div>
+                  
+                  {[0, 1, 2].map((col) => (
+                    <button
+                      key={col}
+                      className={`grid-cell ${grid[row][col] ? 'correct' : 'empty'}`}
+                      onClick={() => handleCellClick(row, col)}
+                      disabled={grid[row][col] !== null}
+                    >
+                      {grid[row][col] ? (
+                        <>
+                          <div className="teacher-code">
+                            {grid[row][col]?.kuerzel}
+                          </div>
+                          <div className="teacher-name">
+                            {grid[row][col]?.name.split(' ')[0]}
+                          </div>
+                        </>
+                      ) : null}
+                    </button>
+                  ))}
+                </React.Fragment>
+              ))}
+            </div>
+          </>
+        )}
+      </main>
+
       {!gameOver && !gameWon && (
-        <div style={{ marginTop: '30px' }}>
+        <footer className="bottom-nav">
           <button 
             onClick={resetGame}
-            style={{
-              padding: '10px 20px',
-              fontSize: '16px',
-              backgroundColor: '#4CAF50',
-              color: 'white',
-              border: 'none',
-              borderRadius: '4px',
-              cursor: 'pointer'
-            }}
+            className="new-game-btn"
           >
             Neues Spiel
           </button>
-        </div>
+        </footer>
       )}
     </div>
   );

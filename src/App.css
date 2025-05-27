@@ -1,29 +1,165 @@
-/* TeacherGrid.css */
-.grid-container {
-  display: grid;
-  grid-template-columns: 150px repeat(auto-fit, 40px);
-  grid-auto-rows: 40px;
-  gap: 1px;
-  background-color: #ccc;
-  overflow: auto;
-  max-width: 100%;
+:root {
+  --htl-blue: #009fe3;
+  --htl-dark: #003366;
+  --htl-light: #f5f9ff;
+  --htl-gray: #ccc;
+  --htl-success: #4caf50;
 }
 
-.grid-label {
-  font-weight: bold;
-  background-color: #f0f0f0;
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-width: 430px;
+  margin-inline: auto;
+  font-family: sans-serif;
+  background: var(--htl-light);
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  background: linear-gradient(135deg, var(--htl-blue), var(--htl-dark));
+  color: white;
+  padding: 10px;
+  position: relative;
   text-align: center;
-  padding: 4px;
-  font-size: 12px;
-  z-index: 1;
+}
+
+.htl-logo {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.game-container {
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.attempts-counter {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--htl-dark);
+}
+/* Angepasster CSS-Code für konsistente Grid-Größen */
+.grid-container {
+  display: grid;
+  grid-template-columns: 80px repeat(3, 1fr); /* Feste Breite für Labels */
+  gap: 6px;
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
+}
+
+.grid-corner {
+  height: 40px;
+}
+
+.grid-header, .grid-row-label {
+  background: var(--htl-blue);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 4px;
+  min-height: 40px;
+  min-width: 0; 
   overflow: hidden;
-  white-space: nowrap;
   text-overflow: ellipsis;
 }
 
 .grid-cell {
-  background-color: white;
+  background: white;
+  border: 1px solid var(--htl-gray);
+  border-radius: 6px;
+  aspect-ratio: 1;
+  min-height: 80px;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 100%;
+}
+
+.grid-cell.correct {
+  background: rgba(76, 175, 80, 0.15);
+  border-color: var(--htl-success);
+}
+
+.grid-cell.empty::after {
+  content: "?";
+  color: #aaa;
+}
+
+.teacher-code {
+  font-weight: bold;
+}
+
+.teacher-name {
+  font-size: 0.65rem;
   text-align: center;
-  padding: 4px;
-  font-size: 12px;
+  color: var(--htl-dark);
+}
+
+.result-screen {
+  text-align: center;
+  padding: 10px;
+}
+
+.result-title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.result-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid var(--htl-blue);
+  object-fit: cover;
+}
+
+.footer {
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid var(--htl-gray);
+  background: white;
+}
+
+.new-game-btn {
+  background: var(--htl-blue);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.new-game-btn:hover {
+  background: var(--htl-dark);
+}
+
+@media (max-width: 430px) {
+  .grid-cell {
+    font-size: 0.7rem;
+  }
+
+  .grid-header, .grid-row-label {
+    font-size: 0.65rem;
+  }
 }
