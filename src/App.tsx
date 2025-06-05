@@ -68,6 +68,19 @@ const App: React.FC = () => {
 
   const showTeacherInputDialog = (row: number, col: number) => {
     return new Promise<Teacher | null>((resolve) => {
+      // Theme detection
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      const popupBg = isDark ? '#23243a' : 'white';
+      const popupText = isDark ? '#fff' : '#222';
+      const popupBorder = isDark ? '#444' : '#eee';
+      const suggestionBg = isDark ? '#23243a' : '#fff';
+      const suggestionHover = isDark ? '#2d2d3a' : '#f5f5f5';
+      const inputBg = isDark ? '#18192a' : '#fff';
+      const inputText = isDark ? '#fff' : '#222';
+      const buttonBg = isDark ? '#009fe3' : '#009fe3';
+      const buttonText = isDark ? '#fff' : '#fff';
+      const buttonBorder = isDark ? '#004d99' : '#009fe3';
+
       const modal = document.createElement('div');
       modal.style.position = 'fixed';
       modal.style.top = '0';
@@ -81,25 +94,50 @@ const App: React.FC = () => {
       modal.style.zIndex = '1000';
       
       const modalContent = document.createElement('div');
-      modalContent.style.backgroundColor = 'white';
+      modalContent.style.backgroundColor = popupBg;
+      modalContent.style.color = popupText;
       modalContent.style.padding = '20px';
-      modalContent.style.borderRadius = '8px';
-      modalContent.style.width = '300px';
+      modalContent.style.borderRadius = '12px';
+      modalContent.style.width = '320px';
+      modalContent.style.boxShadow = '0 4px 24px rgba(0,0,0,0.25)';
+      modalContent.style.border = `1.5px solid ${popupBorder}`;
+      modalContent.style.display = 'flex';
+      modalContent.style.flexDirection = 'column';
       
       const input = document.createElement('input');
       input.style.width = '100%';
-      input.style.padding = '10px';
-      input.style.marginBottom = '10px';
+      input.style.padding = '12px';
+      input.style.marginBottom = '12px';
+      input.style.borderRadius = '6px';
+      input.style.border = `1.5px solid ${popupBorder}`;
+      input.style.background = inputBg;
+      input.style.color = inputText;
+      input.style.fontSize = '1rem';
+      input.style.outline = 'none';
       input.placeholder = 'Lehrer-Kürzel eingeben';
       
       const suggestionsDiv = document.createElement('div');
       suggestionsDiv.style.maxHeight = '200px';
       suggestionsDiv.style.overflowY = 'auto';
-      suggestionsDiv.style.marginBottom = '10px';
+      suggestionsDiv.style.marginBottom = '12px';
+      suggestionsDiv.style.borderRadius = '6px';
+      suggestionsDiv.style.background = suggestionBg;
+      suggestionsDiv.style.border = `1px solid ${popupBorder}`;
       
       const button = document.createElement('button');
       button.textContent = 'Bestätigen';
-      button.style.padding = '8px 16px';
+      button.style.padding = '10px 20px';
+      button.style.borderRadius = '6px';
+      button.style.background = buttonBg;
+      button.style.color = buttonText;
+      button.style.fontWeight = '600';
+      button.style.fontSize = '1rem';
+      button.style.border = `1.5px solid ${buttonBorder}`;
+      button.style.cursor = 'pointer';
+      button.style.alignSelf = 'flex-end';
+      button.style.transition = 'background 0.2s';
+      button.onmouseenter = () => button.style.background = isDark ? '#00b4ff' : '#003366';
+      button.onmouseleave = () => button.style.background = buttonBg;
       
       modalContent.appendChild(input);
       modalContent.appendChild(suggestionsDiv);
@@ -120,16 +158,20 @@ const App: React.FC = () => {
         
         matchedTeachers.forEach(teacher => {
           const suggestion = document.createElement('div');
-          suggestion.style.padding = '8px';
+          suggestion.style.padding = '10px 8px';
           suggestion.style.cursor = 'pointer';
-          suggestion.style.borderBottom = '1px solid #eee';
+          suggestion.style.borderBottom = `1px solid ${popupBorder}`;
+          suggestion.style.background = suggestionBg;
+          suggestion.style.color = popupText;
+          suggestion.style.fontSize = '1rem';
+          suggestion.style.transition = 'background 0.15s';
           suggestion.innerHTML = `<strong>${teacher.kuerzel}</strong> - ${teacher.name}`;
-          
+          suggestion.onmouseenter = () => suggestion.style.background = suggestionHover;
+          suggestion.onmouseleave = () => suggestion.style.background = suggestionBg;
           suggestion.addEventListener('click', () => {
             resolve(teacher);
             document.body.removeChild(modal);
           });
-          
           suggestionsDiv.appendChild(suggestion);
         });
       };
