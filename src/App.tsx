@@ -31,6 +31,18 @@ const App: React.FC = () => {
   const [attemptsLeft, setAttemptsLeft] = useState(5);
   const [gameOver, setGameOver] = useState(false);
   const [gameWon, setGameWon] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    // Check system preference for dark mode
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    setIsDarkMode(prefersDark);
+  }, []);
+
+  useEffect(() => {
+    // Update theme when dark mode changes
+    document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
+  }, [isDarkMode]);
 
   useEffect(() => {
     const horizontal = eigenschaftenData
@@ -197,6 +209,13 @@ const App: React.FC = () => {
       <header className="app-header">
   <img src={HTLLogo} alt="HTL Logo" className="htl-logo" />
   <h1>HTL DonauGrid</h1>
+  <button 
+    onClick={() => setIsDarkMode(!isDarkMode)}
+    className="theme-toggle"
+    aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
+  >
+    {isDarkMode ? '☀️' : '🌙'}
+  </button>
 </header>
 
 
@@ -266,7 +285,7 @@ const App: React.FC = () => {
       </main>
 
       {!gameOver && !gameWon && (
-        <footer className="bottom-nav">
+        <footer className="footer">
           <button 
             onClick={resetGame}
             className="new-game-btn"
